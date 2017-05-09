@@ -1,0 +1,22 @@
+table {
+	font: 1em helvetica, arial, sans-serif;}
+#Resultados{
+	width: 100%;}
+#Resultados tr{
+	color: #333;
+	background: #fff;}
+
+#Resultados tr:hover{
+	color: #fff;
+	background-color: #483d8b;
+	cursor: pointer;
+	font: bold;}
+#Resultados th{
+	color: #fff;
+	background-color: #000;
+	padding: 5px;
+	border-bottom: 1px solid #000;}
+#Resultados td{
+	padding: 5px;
+	border-bottom: 1px solid #000:}
+

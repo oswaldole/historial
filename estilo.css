@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: "Helvetica Neue Narrow", Arial, Helvetica, sans-serif;
+	color: #fff;
+	margin: 0px;
+	background-image:url('img/brushed-metal.png');
+	/*background-color: #ddd;*/
+	}
+
+
+#cuerpo{
+	display: block;
+	width: 100%;
+	padding: 0px;
+	background-image:url('img/brushed-metal.png');}
+		
+/*#menu{
+	background: #ddd;
+	display: block;
+	float: left;
+
+	}*/
+	
+#contenido{
+	display: block;
+	float: left;
+	width: 90%;
+	padding: 2%;
+	min-width: 200px;
+	
+	background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(60,60,60)),
+        color-stop(0.74, rgb(43,43,43)),
+        color-stop(1, rgb(60,60,60))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(60,60,60) 0%,
+        rgb(43,43,43) 74%,
+        rgb(60,60,60) 100%
+        );
+     -moz-border-radius: 10px;
+     -webkit-border-radius: 10px;
+     border-radius: 10px;
+     margin: 10px;
+	 
+	-moz-box-shadow: rgb(150,150,150) 0px 5px 10px ;
+	-webkit-box-shadow: rgb(150,150,150) 0px 5px 10px ;
+	box-shadow: rgb(150,150,150) 0px 5px 10px ;
+    	}
+
+#header{
+	
+	display: block;
+	width:100%;
+	height: 100px;
+	text-align: center;
+	clear:both;
+	color: #fff;
+	border: 1px solid #094786;
+	border-bottom: 2px solid ;
+	padding: 0px 8px;
+	margin: 0px;
+	background: #fff;
+	
+	-moz-box-shadow: rgb(150,150,150) 0px 5px 10px ;
+	-webkit-box-shadow: rgb(150,150,150) 0px 5px 10px ;
+	box-shadow: rgb(150,150,150) 0px 5px 10px ;
+	
+}
+
+#footer{
+	display: block;
+	color: #000;
+	text-align: center;
+	font-size: 0.7em;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	clear:both;
+}
+
+
+h1, h2, h3 {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	text-align:center;}
+h1{
+	font-size: 28px;}
+	
+	
+#titulo1{
+	color: #fff;
+	padding: 6px;
+	background-color: #8c910b;
+	display: block;
+	text-shadow: 0px -2px 0px #000;
+}
+
+.exportar{
+	float: right;
+}
+
+a img {
+	border: none;
+}
+#menu_frame{
+	display: block;
+	float: left;
+	}
+	
+#contenido_frame{
+	display: block;
+	float: left;
+	}
+	
+table
+{
+width:100%;
+border: 0px;
+}
+
